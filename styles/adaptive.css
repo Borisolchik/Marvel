@@ -1,0 +1,495 @@
+/* 1200px - 1400px */
+@media screen and (max-width: 1110px) {
+    .slick-slider {
+        overflow: hidden;
+    }
+}
+
+/* 1024px - 1109px */
+@media screen and (max-width: 1109px) {
+    .header__container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .header__title {
+        font-size: 105px;
+    }
+    .header__text {
+        font-size: 22px;
+    }
+
+    .aboutUs__container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .title {
+        font-size: 70px;
+    }
+
+    .thing__container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .things .items {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .things .items .item {
+        margin-bottom: 25px;
+    }
+
+    .services__container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .services__item-title {
+        font-size: 36px;
+        width: 280px;
+    }
+    .services__item-list {
+        height: 200px;
+    }
+
+    .beautiful__container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .slick-list {
+        margin: 0 auto ;
+        width: 1024px;
+    }
+
+    .slick-track {
+        left: calc(50% - 520px);
+    }
+
+    .slick-slide {
+        margin: 0 43px;
+    }
+
+    .slick-prev, .slick-prev:hover,.slick-prev:focus {
+        left: 0;
+        z-index: 20;
+    }
+    .slick-next, .slick-next:hover, .slick-next:focus {
+        right: 0;
+    }
+
+    .footer__container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact__email {
+        font-size: 35px;
+    }
+
+    .form__title {
+        font-size: 35px;
+    }
+}
+
+
+/* 768px - 1023px */
+@media screen and (max-width: 1023px) {
+    .header__title {
+        font-size: 82px;
+        margin-top: 62px;
+        margin-bottom: 18px;
+    }
+    .header__text {
+        font-size: 20px;
+        margin-bottom: 44px;
+    }
+    .button {
+        margin-bottom: 70px;
+    }
+    .scroll {
+        display: none;
+    }
+
+    .aboutUs {
+        padding: 53px 0;
+    }
+
+    .aboutUs-title {
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .aboutUs-border {
+        margin-bottom: 41px;
+    }
+
+    .aboutUs-block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .aboutUs-image {
+        margin-bottom: 30px;
+    }
+
+    .things {
+        padding: 21px 0 65px;
+    }
+
+    .things-title {
+        margin-bottom: 2px;
+    }
+
+    .things-border {
+        margin-bottom: 41px;
+    }
+
+    .beautiful {
+        padding-top: 53px;
+        padding-bottom: 60px;
+    }
+
+    .beautiful-title {
+        margin-bottom: 34px;
+    }
+
+    .beautiful-border {
+        margin-bottom: 35px;
+    }
+
+    .slick-list {
+        margin: 0 auto ;
+        width: 768px;
+    }
+
+    .slick-track {
+        left: calc(50% - 399px);
+    }
+
+    .slick-slide {
+        margin: 0 64.5px;
+    }
+
+    .services__container {
+        padding: 54px 15px 62px;
+    }
+
+    .services__item-title {
+        font-size: 32px;
+        width: 250px;
+    }
+
+    .service-border {
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+
+    .services__items {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+
+    .services__item {
+        margin-bottom: 54px;
+        margin-right: 0;
+    }
+
+    .services__item-list {
+        height: 165px;
+    }
+
+    .services__item-title {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .footer__container {
+        padding-top: 55px;
+        padding-bottom: 70px;
+    }
+
+    .contact__email {
+        font-size: 35px;
+    }
+
+    .form__title {
+        font-size: 35px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact__info {
+    }
+
+    .form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form__title {
+        margin-top: 46px;
+    }
+
+    .form {
+        align-items: center;
+    }
+
+    .contact-border {
+        margin-top: 36px;
+        margin-bottom: 23px;
+    }
+
+}
+
+/* 579px - 767px */
+@media screen and (max-width: 767px) {
+    .slick-list {
+        margin: 0 auto ;
+        width: 424px;
+    }
+
+    .slick-track {
+        left: calc(50% - 228px);
+    }
+
+    .slick-slide {
+        margin: 0 85px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .header__menu-items {
+        display: none;
+        /*display: block;*/
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background-color: white;
+    }
+    .header__menu-list {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .header__menu-item {
+        margin-bottom: 23px;
+        padding-bottom: 0;
+    }
+    .header__menu-item a {
+        justify-content: center;
+        font-family: 'Sofia Pro Regular', sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        color: #000000;
+    }
+    .burger {
+        display: block;
+    }
+    .open {
+        display: block;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .aboutUs-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutUs-block .info .item {
+        width: 100%;
+    }
+}
+
+/* 425px - 500px */
+@media screen and (max-width: 500px) {
+    .header__title {
+        font-size: 68px;
+    }
+
+    .header__text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .aboutUs-block .info .item {
+        font-size: 16px;
+    }
+
+    .things .items .item .name {
+        font-size: 28px;
+    }
+
+    .beautiful .text {
+        font-size: 16px;
+    }
+
+    .services__text {
+        font-size: 16px;
+    }
+
+    .services__item-title {
+        font-size: 28px;
+    }
+
+    .services__item-list li {
+        font-size: 16px;
+    }
+
+    .contact__email {
+        font-size: 30px;
+    }
+
+    .form__title {
+        font-size: 30px;
+        width: 353px;
+    }
+    .form {
+        width: 100%;
+    }
+    .form div input {
+        width: 100%;
+    }
+
+    .contact__email a span {
+        display: none;
+    }
+    .contact__email a div {
+        display: block;
+    }
+
+    .form .button .header__btn{
+        width: 196px;
+    }
+
+    #form-success {
+        margin-top: 0;
+    }
+
+}
+
+/* 375px - 424px */
+@media screen and (max-width: 424px) {
+
+    .header__title {
+        font-size: 60px;
+    }
+
+    .header__text {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .things .items .item .name {
+        font-size: 26px;
+        margin-top: 0;
+    }
+
+    .things .items .item {
+        width: 290px;
+        height: 290px;
+    }
+
+    .contact__email {
+        font-size: 28px;
+    }
+
+    .form__title {
+        font-size: 28px;
+        width: 353px;
+    }
+
+    .slick-list {
+        margin: 0 auto ;
+        width: 320px;
+    }
+
+    .slick-track {
+        left: calc(50% - 175px);
+    }
+
+    .slick-slide {
+        margin: 0 32.5px;
+    }
+
+    .slick-next, .slick-next:hover, .slick-next:focus {
+        transform: scale(0.55);
+        top: calc(50% - 12px);
+        right: -4px;
+    }
+
+    .slick-prev, .slick-prev:hover, .slick-prev:focus {
+        transform: scale(0.55);
+        top: calc(50% - 12px);
+        left: -4px;
+    }
+
+
+}
+
+/* 320px - 374px */
+@media screen and (max-width: 374px) {
+
+    .header__title {
+        font-size: 50px;
+    }
+
+    .header__text {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .aboutUs-block .info .item {
+        font-size: 14px;
+    }
+
+    .things .items .item .name {
+        font-size: 24px;
+    }
+
+    .beautiful .text {
+        font-size: 14px;
+    }
+
+    .services__text {
+        font-size: 14px;
+    }
+
+    .services__item-title {
+        font-size: 25px;
+    }
+
+    .services__item-list li {
+        font-size: 14px;
+    }
+
+    .contact__email {
+        font-size: 25px;
+    }
+
+    .form__title {
+        font-size: 25px;
+        width: 190px;
+    }
+}
