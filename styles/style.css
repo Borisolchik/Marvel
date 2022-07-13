@@ -23,6 +23,11 @@
     src: url("../fonts/Alata-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/RobotoRegular.ttf");
+}
+
 
 * {
     padding: 0;
@@ -262,6 +267,82 @@
     text-align: center;
     background: white;
     margin: 0 10px;
+    position: relative;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.things .items .item .image {
+    width: 232px;
+    height: 232px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+.things .items .item:hover {
+    cursor: pointer;
+}
+
+.things .items .item:hover .image {
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    margin-right: 100%;
+}
+
+.things .items .item:hover .name {
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    margin-top: 0;
+}
+
+.things .items .item:hover .more {
+    display: block;
+}
+
+.things .items .item .more {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0B0D21;
+    text-align: left;
+    margin-top: 25px;
+    display: none;
+}
+
+.more-item {
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.more-item:hover {
+    margin-left: 21px;
+    cursor: pointer;
+}
+
+.more-item:last-child:hover {
+    margin-left: 0;
+}
+
+.more-item:last-child:hover .active {
+    display: none;
+}
+.more-item:last-child .hover{
+    display: none;
+}.more-item:last-child:hover .hover{
+    display: inline-block;
+}
+
+.more-item span {
+    margin-left: 10px;
+    margin-bottom: -2px;
+}
+
+.things .items .item .image img {
+width: 100%;
 }
 
 .things .items .item .name {

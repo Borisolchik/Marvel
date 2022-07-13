@@ -408,6 +408,10 @@
         height: 290px;
     }
 
+    .things .items .item:hover {
+        height: 320px;
+    }
+
     .contact__email {
         font-size: 28px;
     }
